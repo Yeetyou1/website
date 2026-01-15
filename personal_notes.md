@@ -14,3 +14,8 @@ FONTS
     
 FAVICON
 -gotta have a favicon
+
+LAYOUT AND DESIGN
+-flex boxes are killing me
+    maybe it's time to switch to a different .css or figure something out?
+-ask [] to rip some neocities / dev portfolio websites and look at how they do it
