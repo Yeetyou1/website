@@ -2,16 +2,20 @@
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./src/**/*.{html,js}",
+    "./*.html",
+    "./src/**/*.css"
+  ],
   theme: {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         versus: ["Versus", "sans-serif"],
-        gsanscode: ["Versus", "sans-serif"],
+        gsanscode: ["GSansCode", "sans-serif"],
       },
       spacing: {
-        "1080": "1080px",
+        "1080": "1080px",  // custom spacing
       },
     },
   },
