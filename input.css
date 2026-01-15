@@ -1,0 +1,28 @@
+/* AI Generated */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/inter/Inter_24pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-size: medium;
+ }
+            
+@font-face {
+    font-family: 'GSansCode';
+    src: url('./fonts/google_sans_code/GoogleSansCode-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-size: medium;
+}
+            
+@font-face {
+    font-family: 'Versus';
+    src: url(./fonts/versus/versus-ultra_RUS_BY_LYAJKA.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
