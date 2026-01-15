@@ -17,5 +17,5 @@ FAVICON
 
 LAYOUT AND DESIGN
 -flex boxes are killing me
-    maybe it's time to switch to a different .css or figure something out?
+    maybe it's time to switch or get rid of tailwind.js?
 -ask [] to rip some neocities / dev portfolio websites and look at how they do it
