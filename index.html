@@ -39,20 +39,28 @@
     <!-- Outer box -->
     <div class="bg-gray-200 rounded w-[1920px] h-[1080px] flex items-center justify-center">
 
-      <!-- Inner box -->
-      <div class="bg-gray-200 p-10 w-[800px] h-[400px] flex items-center gap-8 rounded shadow-lg">
-        
-        <!-- Image -->
-        <img
-          src="./media/imgs/anko.png"
-          alt="anko test image"
-          class="w-[480px] h-[380px] object-cover rounded"
-        />
+      <!-- Inner box (4-quadrant flexbox debug layout) -->
+      <div class="bg-gray-200 w-[800px] h-[400px] flex flex-wrap rounded shadow-lg">
 
-        <!-- Text -->
-        <p class="font-inter text-base text-black">
-          test test test
-        </p>
+        <!-- Top Left -->
+        <div class="w-1/2 h-1/2 flex items-center justify-center border border-black">
+          <span class="font-inter text-lg text-black">Top Left</span>
+        </div>
+
+        <!-- Top Right -->
+        <div class="w-1/2 h-1/2 flex items-center justify-center border border-black">
+          <span class="font-inter text-lg text-black">Top Right</span>
+        </div>
+
+        <!-- Bottom Left -->
+        <div class="w-1/2 h-1/2 flex items-center justify-center border border-black">
+          <span class="font-inter text-lg text-black">Bottom Left</span>
+        </div>
+
+        <!-- Bottom Right -->
+        <div class="w-1/2 h-1/2 flex items-center justify-center border border-black">
+          <span class="font-inter text-lg text-black">Bottom Right</span>
+        </div>
 
       </div>
     </div>
