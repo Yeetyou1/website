@@ -15,6 +15,13 @@
             }
             
             @font-face {
+                font-family: 'GSansCode';
+                src: url('./fonts/google_sans_code/GoogleSansCode-Medium.ttf') format('truetype');
+                font-weight: 500;
+                font-size: medium;
+            }
+            
+            @font-face {
                 font-family: 'Versus';
                 src: url(./fonts/versus/versus-ultra_RUS_BY_LYAJKA.otf) format('opentype');
                 font-weight: 400;
@@ -24,16 +31,19 @@
             @layer utilities {
                 .font-inter { font-family: 'Inter', sans-serif; }
                 .font-versus { font-family: 'Versus', sans-serif; }
+                .font-gsanscode { font-family: 'GSansCode', sans-serif; }
             }
         </style>
         <meta charset="UTF-8">
         <title>grymmllyn's website</title>
     </head>
-    <h1 class="font-inter text-8xl text-center text-white">grymmllyn's landing page</h1>>
+    <h1 class="font-gsanscode text-6xl text-center text-white pt-6">://grymmllyn's landing page//:</h1>>
     <h2 class="font-inter text-4xl text-center text-white">this page is actively being worked on so expect changes to happen in real time! (if you manage to see one in real time)</h2>
     <div class="flex items-center justify-center min-h-screen">
         <div class="bg-gray-200 pt-4 rounded w-[1080px] h-[1080px]">
-            <img scr="./media/imgs/anko.png" alt="anko" class="w-[64px] h-[64px] object-cover rounded shadow-lg">
+            <div class="bg-gray-200 p-10 w-96 h-94 flex justify-end items-center">
+                <img src="./media/imgs/anko.png" alt="Anko Test Image" class="w-[480px] h-[280px] object-cover rounded"/>
+            </div>
         </div>
     </div>
 </html>
