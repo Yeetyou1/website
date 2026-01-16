@@ -16,6 +16,7 @@ FONTS
 
 FAVICON
 -gotta have a favicon
+    ● get an official looking favicon to replace the placeholder one
 
 LAYOUT AND DESIGN ON INDEX.HTML
 -flex boxes are killing me
