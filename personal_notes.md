@@ -1,5 +1,8 @@
 notes for myself / thought processes :
 
+DOCUMENTATION
+https://tailwindcss.com/docs/installation/using-vite
+
 ABOUT ME
 -on about me page do icons for the programming language(s) [that i know] instead of typing them out normally for readability
 
