@@ -23,7 +23,6 @@ LAYOUT AND DESIGN ON INDEX.HTML
     ● maybe it's time to switch or get rid of tailwind.js?
     ● layout tutorial?
         ▶ https://youtu.be/vlDAQXqOqKo?si=BDs4yRoy0xxiRXRQ
--ask [] to rip some neocities / dev portfolio websites and look at how they do it
 
 INDEX.HTML
 -add cloudflare analytics?
