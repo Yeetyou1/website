@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Font Faces */
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/inter/Inter_24pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'GSansCode';
+    src: url('./fonts/google_sans_code/GoogleSansCode-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Versus';
+    src: url('./fonts/versus/versus-ultra_RUS_BY_LYAJKA.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.font-gsanscode {
+    font-family: 'GSansCode', sans-serif;
+}
+
+.font-versus {
+    font-family: 'Versus', sans-serif;
+}
